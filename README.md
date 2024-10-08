@@ -1,11 +1,11 @@
 # proyecto-kafka
 
-##Descripcion
+## Descripcion
 Plataforma de transmisión de datos que permite procesar, almacenar y publicar flujos de eventos en tiempo real con docker.
 
-##Pasos para levantar el proyecto
+## Pasos para levantar el proyecto
 
-###1ª Kafka con Docker
+### 1ª Kafka con Docker
 
 Crear la carpeta donde alojar el docker file
 
