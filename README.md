@@ -1,11 +1,11 @@
 # proyecto-kafka
 
-##Descripcion
+## Descripcion
 Plataforma de transmisión de datos que permite procesar, almacenar y publicar flujos de eventos en tiempo real con docker.
 
-##Pasos para levantar el proyecto
+## Pasos para levantar el proyecto
 
-###1ª Kafka con Docker
+### 1ª Kafka con Docker
 
 Crear la carpeta donde alojar el docker file
 
@@ -53,3 +53,9 @@ Crear la carpeta donde alojar el docker file
 		--data-raw '{ "id": 2,
 		"name": "pepe",
 		"email": "pepe@gmail.com"}'```
+
+
+- **Dar de baja docker**
+	- Abrir nuevamente el terminal en la ruta "C:\kafka" y verificar si hay docker UP con el siguiente comando `C:\kafka> docker ps`
+    - Con el comando `C:\kafka> docker-compose down` se los da de baja.
+    - ![Captura-docker-down.PNG](Captura-docker-down.PNG)
